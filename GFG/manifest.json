@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "GFG practice sets",
+  "description": "GFG DSA quick launcher",
+  "version": "1.0.0",
+  "icons": { "128": "window_128.png" },
+  "browser_action": {
+    "default_icon": "window.png",
+    "default_popup": "./public/popup.html"
+  },
+  "permissions": ["activeTab"]
+}
